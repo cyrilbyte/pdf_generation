@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+  </head>
+  <body>
+    <h1>Example</h1>
+
+    <form method="post" action="generate-pdf.php">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+
+      <label for="store">Store</label>
+      <input type="text" name="store" id="store" />
+
+      <label for="cat">Category</label>
+      <select name="category" id="">
+        <option value="Vegetables">Vegetables</option>
+        <option value="Cereals">Cereals</option>
+        <option value="Soda">Soda</option>
+        <option value="Alcohol">Alcohol</option>
+      </select>
+
+      <label for="quantity">Quantity</label>
+      <input type="text" name="quantity" id="quantity" />
+
+      <button>Generate PDF</button>
+    </form>
+  </body>
+</html>
